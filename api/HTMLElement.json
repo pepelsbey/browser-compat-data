@@ -1116,6 +1116,11 @@
           "support": {
             "chrome": {
               "version_added": "60"
+              "flags": [
+                {
+                  "type": "preference",
+                  "name": "Experimental Web Platform features"
+                }
             },
             "chrome_android": {
               "version_added": "60"
